@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#computer-cards img {
+    width: 175px;
+    margin: 10px;
+}
+
+#player-cards img {
+    width: 175px;
+    margin: 1px;
+}
+
+.deal {
+    width: 100px;
+    font-size: 20px;
+}
+
+.cbtn {
+    width: 150px;
+    font-size: 20px;
+}
+
+.pbtn {
+    width: 100px;
+    font-size: 20px;
+}
