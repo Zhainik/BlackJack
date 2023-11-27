@@ -9,8 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const playerSum = document.getElementById('player-sum')
     const rDiv = document.getElementById('result')
 
-    const point = [2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 3, 4, 11]
-    const images = ['2-C.png', '3-C.png', '4-C.png', '5-C.png', '6-C.png', '7-C.png', '8-C.png', '9-C.png', '10-C.png', 'J-C.png', 'Q-C.png', 'K-C.png', 'A-C.png',]
+    const point = [2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 3, 4, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 3, 4, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 3, 4, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 3, 4, 11]
+    const images = ['2-C.png', '3-C.png', '4-C.png', '5-C.png', '6-C.png', '7-C.png', '8-C.png', '9-C.png', '10-C.png', 'J-C.png', 'Q-C.png', 'K-C.png', 'A-C.png',
+        '2-D.png', '3-D.png', '4-D.png', '5-D.png', '6-D.png', '7-D.png', '8-D.png', '9-D.png', '10-D.png', 'J-D.png', 'Q-D.png', 'K-D.png', 'A-D.png',
+        '2-H.png', '3-H.png', '4-H.png', '5-H.png', '6-H.png', '7-H.png', '8-H.png', '9-H.png', '10-H.png', 'J-H.png', 'Q-H.png', 'K-H.png', 'A-H.png',
+        '2-S.png', '3-S.png', '4-S.png', '5-S.png', '6-S.png', '7-S.png', '8-S.png', '9-S.png', '10-S.png', 'J-S.png', 'Q-S.png', 'K-S.png', 'A-S.png',]
 
     let player = []
     let computer = []
